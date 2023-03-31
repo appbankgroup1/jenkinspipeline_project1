@@ -38,7 +38,7 @@ pipeline{
 				sh 'ps -ef'
 			}
 		}
-		stgae('7-yowvi'){
+		stage('7-yowvi'){
 			steps{
 				sh 'ps -ef'
 				sh 'sudo systemsctl status jenkins'
