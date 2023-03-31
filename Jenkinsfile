@@ -41,7 +41,7 @@ pipeline{
 		stage('7-yowvi'){
 			steps{
 				sh 'ps -ef'
-				sh 'sudo systemsctl status jenkins'
+				sh 'sudo systemctl status jenkins'
 			}
 		}
 		stage('8-meylem'){
